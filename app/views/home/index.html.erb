@@ -1,8 +1,25 @@
-<div class="container">
-  <%= render "nav" %>
-</div>
-<div class="container-fluid bg-body-tertiary mt-3">
-  <div class="container px-5 py-4">
-    <%= render "hero" %>
-  </div>
+<div class="container-fluid p-0">
+  <header>
+    <%= render "nav" %>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <div class="container p-0">
+        <div class="d-flex">
+          <div class="col-6">
+            <h1 class="intro__header">
+              Make better code
+              <i class="bi bi-code text-danger"></i>
+            </h1>
+            <p class="intro__header-subtext">
+              why learn how to code?
+            </p>
+          </div>
+          <div class="col-6">
+            <%= image_tag "rubytrain.webp", height: "323px" %>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </div>

@@ -1,3 +1,5 @@
+// Header
+
 body {
   background-color: #ffffff !important;
 }
@@ -8,9 +10,32 @@ body {
 }
 
 .navbar {
-  padding-top: 36px;
+  padding-top: 34px;
+  padding-bottom: 24px;
 }
 
 .nav-link {
   color: rgba(0, 0, 0, 1);
+}
+
+// Header
+
+.intro {
+  // height: 467px;
+  background-color: rgba(251, 251, 251, 1);
+}
+
+.intro__header {
+  font-size: 60px;
+  font-weight: bold;
+  max-width: 354px;
+  padding-top: 131px;
+  margin-left: 44px;
+  margin-bottom: 19px;
+}
+.intro__header-subtext {
+  color: rgba(74, 85, 104, 1);
+  font-size: 30px;
+  margin-left: 44px;
+  margin-bottom: 135px;
 }
